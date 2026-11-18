@@ -1,0 +1,9 @@
+{
+  "format_version": 1,
+  "id": "io.ncoooooper.sensorglance",
+  "name": "Sensor Glance",
+  "version": "0.1.0",
+  "api_version": "27.12.0",
+  "description": "Read heart rate, stress, oxygen saturation and the last VO2 max estimate from your sensors.",
+  "author": "ncoooooper"
+}

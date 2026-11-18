@@ -1,0 +1,6 @@
+{
+  "category": "utilities",
+  "short_description": "Read heart rate, stress, oxygen saturation and the last VO2 max estimate from your sensors.",
+  "description": "Read heart rate, stress, oxygen saturation and the last VO2 max estimate from your sensors.",
+  "changelog": "First release."
+}
