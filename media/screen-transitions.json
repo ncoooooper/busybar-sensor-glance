@@ -1,0 +1,48 @@
+{
+  "app": "busybar-sensor-glance",
+  "sha256": "40582e63edbe241e13b22e9299f3e2b517397bef5eb8d9c0649e6d1dcfffbe2a",
+  "firmware": "1.3.1",
+  "cell": 16,
+  "lit": 14,
+  "front": [
+    72,
+    16
+  ],
+  "rear": [
+    160,
+    80
+  ],
+  "captures": [
+    {
+      "mode": "extended",
+      "guides": [
+        "use-1",
+        "use-2"
+      ],
+      "tour": "screen-transitions",
+      "input": [
+        [
+          "up"
+        ],
+        [
+          "up",
+          "up"
+        ],
+        [
+          "down",
+          "up",
+          "up",
+          "up"
+        ]
+      ],
+      "distinct_frames": [
+        10,
+        13,
+        46
+      ],
+      "rear_frames": 38,
+      "rear_tour": "screen-transitions-rear",
+      "exit": "finished"
+    }
+  ]
+}

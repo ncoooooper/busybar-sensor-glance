@@ -2,6 +2,20 @@
 
 Read your watch at the edge of a monitor during a call or game. Each page includes the sensor’s latest value and timestamp. Heart rate can arrive directly over Bluetooth. Stress, oxygen saturation and VO₂ max use measurements your watch or integration has already recorded.
 
+## Screen transitions
+
+Move from heart rate to stress, oxygen saturation and the last VO2 max estimate. Each reading carries its own unit.
+
+![Sensor Glance front display. Move from heart rate to stress, oxygen saturation and the last VO2 max estimate. Each reading carries its own unit.](media/guide/screen-transitions.gif)
+
+<details>
+
+<summary>Watch the rear display</summary>
+
+![Sensor Glance rear display during the recorded controls](media/guide/screen-transitions-rear.gif)
+
+</details>
+
 ## Setup
 
 For a heart-rate broadcast, install `companion/requirements-ble.txt` in a virtual environment. On a compatible Garmin watch, enable **Broadcast Heart Rate** in the wrist heart-rate settings. Allow Bluetooth access on the companion computer. Use `{"bluetooth_name":"YOUR ADVERTISED DEVICE NAME"}` as config. For other measurements, open Home Assistant **Developer tools → States**, find each entity, and copy its actual ID into `entities`. Remove entries your device does not supply. Set `home_assistant` to your instance, create a long-lived access token in your Home Assistant profile and put it in `HA_TOKEN`. Both inputs can be used together. Direct HR needs the standard Bluetooth Heart Rate Service. An ANT+-only broadcast requires a separate receiver integration.
@@ -36,7 +50,7 @@ Install BUSY Bar Emulator and open it. From this repository run the following co
 ~/.busy-emulator/bin/busy-emulator dev --once
 ```
 
-The recordings use example responses on emulator firmware. Each display pixel is enlarged to a 9 × 9 square.
+The recordings use example responses on emulator firmware. Each LED occupies a 16 × 16 cell with a black border.
 
 [Home Assistant REST API](https://developers.home-assistant.io/docs/api/rest/) · [Garmin heart-rate broadcasting](https://support.garmin.com/).
 
