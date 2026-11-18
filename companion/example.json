@@ -1,0 +1,9 @@
+{
+  "home_assistant": "http://homeassistant.local:8123",
+  "entities": {
+    "hr": "sensor.watch_heart_rate",
+    "stress": "sensor.watch_stress",
+    "spo2": "sensor.watch_oxygen_saturation",
+    "vo2": "sensor.watch_vo2_max"
+  }
+}
