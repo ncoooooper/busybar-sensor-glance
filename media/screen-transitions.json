@@ -1,6 +1,17 @@
 {
   "app": "busybar-sensor-glance",
-  "sha256": "40582e63edbe241e13b22e9299f3e2b517397bef5eb8d9c0649e6d1dcfffbe2a",
+  "sha256": "814aa55f6f8b2d49bf7eb1e8fb5bf46444274b8ac0649cadd002a90ec08924df",
+  "rapid_input_test": {
+    "app": "io.ncoooooper.sensorglance",
+    "sha256": "814aa55f6f8b2d49bf7eb1e8fb5bf46444274b8ac0649cadd002a90ec08924df",
+    "firmware": {
+      "name": "1.3.1",
+      "commit": "8edd2da4"
+    },
+    "heap_peak_kib": 89.8,
+    "budget_kib": 128.0,
+    "exit": "finished"
+  },
   "firmware": "1.3.1",
   "cell": 16,
   "lit": 14,
